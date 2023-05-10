@@ -24,4 +24,4 @@ This directory contains solutions to ALX SE 0x00. Shell, basics Project.
 | **14-copy_html** | cp -u ./*.html ../ |
 | **100-lets_move** | mv [[:upper:]]* /tmp/u |
 | **101-clean_emacs** | rm ./*~ |
-| **102-tree** | mkdir ./welcome ./welcome/to ./welcome/to/school/ |
+| **102-tree** | mkdir -p ./welcome/to/school/ |
