@@ -8,3 +8,4 @@ This directory contains solutions to ALX SE 0x00. Shell, basics Project.
 |File Name | Command |
 | -------- | ------- |
 |**0-current_working_directory** | pwd |
+| **1-listit** | ls |
