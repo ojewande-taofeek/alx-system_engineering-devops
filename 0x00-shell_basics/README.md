@@ -12,4 +12,4 @@ This directory contains solutions to ALX SE 0x00. Shell, basics Project.
 | **2-bring_me_home** | cd |
 | **3-listfiles** | ls -l |
 | **4-listmorefiles** | ls -la|
-| **5-listfilesdigitonly** | ls -gGa |
+| **5-listfilesdigitonly** | ls -na |
