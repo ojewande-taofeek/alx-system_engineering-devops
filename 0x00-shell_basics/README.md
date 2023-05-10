@@ -19,3 +19,4 @@ This directory contains solutions to ALX SE 0x00. Shell, basics Project.
 | **9-firstdirdeletion** | rm -r /tmp/my_first_directory |
 | **10-back** | cd - |
 | **11-lists** | ls -la . .. /boot |
+| **12-file_type** | file /tmp/iamafile |
