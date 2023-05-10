@@ -14,3 +14,4 @@ This directory contains solutions to ALX SE 0x00. Shell, basics Project.
 | **4-listmorefiles** | ls -la|
 | **5-listfilesdigitonly** | ls -na |
 | **6-firstdirectory** | mkdir /tmp/my_first_directory |
+| **7-movethatfile** | mv /tmp/betty /tmp/my_first_directory |
