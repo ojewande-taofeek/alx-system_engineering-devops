@@ -56,3 +56,4 @@ At the end of this project, you are expected to be able to explain to anyone, **
 | 5-execute | chmod u+x hello |
 | 6-multiple_permissions | chmod 754 hello |
 | 7-everybody | chmod a+x hello |
+| 8-James_Bond | chmod 007 hello |
