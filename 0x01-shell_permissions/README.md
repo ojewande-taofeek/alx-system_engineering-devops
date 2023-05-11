@@ -58,3 +58,4 @@ At the end of this project, you are expected to be able to explain to anyone, **
 | 7-everybody | chmod a+x hello |
 | 8-James_Bond | chmod 007 hello |
 | 9-John_Doe | chmod 753 hello |
+| 10-mirror_permissions | chmod --reference=hello olleh |
