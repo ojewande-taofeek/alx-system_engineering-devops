@@ -26,3 +26,9 @@ This directory contains solutions to ALX SE 0x00. Shell, basics Project.
 | **101-clean_emacs** | rm ./*~ |
 | **102-tree** | mkdir -p ./welcome/to/school/ |
 | **103-commas** | ls -mapv |
+| **school.mgc** | 0 s SCHOOL School data |
+|                | !:mime School |
+
+>**Note: For the school.mgc file,
+> - s => string
+> - compile the file with "file -Cm school.mgc"**
