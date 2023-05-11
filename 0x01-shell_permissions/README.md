@@ -52,3 +52,4 @@ At the end of this project, you are expected to be able to explain to anyone, **
 | 1-who_am_i | whoami |
 | 2-groups | groups |
 | 3-new_owner | sudo chown betty hello |
+| 4-empty | touch hello |
