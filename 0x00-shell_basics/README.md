@@ -29,6 +29,6 @@ This directory contains solutions to ALX SE 0x00. Shell, basics Project.
 | **school.mgc** | 0 s SCHOOL School data |
 |                | !:mime School |
 
->**Note: For the school.mgc file,
+>**Note: For the school.mgc file**
 > - s => string
-> - compile the file with "file -Cm school.mgc"**
+> - compile the file with "file -Cm school.mgc"
