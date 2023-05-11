@@ -60,3 +60,4 @@ At the end of this project, you are expected to be able to explain to anyone, **
 | 9-John_Doe | chmod 753 hello |
 | 10-mirror_permissions | chmod --reference=olleh hello |
 | 11-directories_permissions | chmod -R a+X . |
+| 12-directory_permissions | (mkdir my_dir; chmod 751 my_dir; ) |
