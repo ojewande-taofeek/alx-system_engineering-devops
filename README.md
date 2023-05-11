@@ -15,7 +15,9 @@ This is a project by ALX SE on Shell Scripting
 - Keyboard shortcuts for Bash
 - LTS
 - Shebang
+- Permission
 
+## Shell Basic
 **man or help:**
 
 - cd
@@ -32,3 +34,19 @@ This is a project by ALX SE on Shell Scripting
 - which
 - help
 - man
+_ chmod
+
+## Shell Permissons
+
+**man or help:**
+
+- sudo
+- su
+- chown
+- chgrp
+- id
+- groups
+- whoami
+- adduser
+- useradd
+- addgroup
