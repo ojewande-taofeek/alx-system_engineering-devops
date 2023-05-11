@@ -41,3 +41,12 @@ At the end of this project, you are expected to be able to explain to anyone, **
 - You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
 - You are not allowed to publish any content of this project.
 - Any form of plagiarism is strictly forbidden and will result in removal from the program.
+
+## Commands
+>**Disclaimer: This is provided as a practice, no intent to share the solution**
+
+**Note: The first line for each task is #!/bin/bash**
+| File name | Commands |
+| --------- | -------- |
+| 0-iam_betty | su betty |
+| 1-who_am_i | whoami |
