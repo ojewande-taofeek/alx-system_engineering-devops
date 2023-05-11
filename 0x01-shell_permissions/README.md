@@ -63,4 +63,4 @@ At the end of this project, you are expected to be able to explain to anyone, **
 | 12-directory_permissions | mkdir -m 751 my_dir |
 | 13-change_group | chgrp school hello |
 | 100-change_owner_and_group | chown -R vincent:staff . |
-| 101-symbolic_link_permissions | chown -RL vincent:staff _hello |
+| 101-symbolic_link_permissions | chown -R vincent:staff _hello |
