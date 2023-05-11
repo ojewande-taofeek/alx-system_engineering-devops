@@ -50,3 +50,4 @@ At the end of this project, you are expected to be able to explain to anyone, **
 | --------- | -------- |
 | 0-iam_betty | su betty |
 | 1-who_am_i | whoami |
+| 2-groups | groups |
