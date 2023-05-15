@@ -16,6 +16,7 @@ This is a project by ALX SE on Shell Scripting
 - LTS
 - Shebang
 - Permission
+- I/O Redirection 
 
 ## Shell Basic
 **man or help:**
@@ -50,3 +51,25 @@ _ chmod
 - adduser
 - useradd
 - addgroup
+
+## Shell I/O Redirections
+**man or help**
+
+- echo
+- cat
+- head
+- tail
+- find
+- wc
+- sort
+- uniq
+- grep
+- tr
+- rev
+- cut
+- passwd (5) (i.e. _man 5 passwd_)
+
+
+
+
+
