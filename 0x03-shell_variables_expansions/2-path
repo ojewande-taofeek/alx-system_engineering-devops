@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /snap/bin/ | mkdir action | export PATH=$PATH:"action"
