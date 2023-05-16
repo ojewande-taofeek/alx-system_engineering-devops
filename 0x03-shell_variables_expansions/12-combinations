@@ -1,2 +1,2 @@
 #!/bin/bash
-echo  {{a..z}{a..z}} | tr " " "\n" | sort -d | cat
+echo  {{a..z}{a..z}} | tr " " "\n" | tr -d "}" | tr -d "{" |sort -d | cat
