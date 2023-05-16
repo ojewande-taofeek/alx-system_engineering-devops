@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -print | cut --complement -d "/" -f 1
+find . -empty -print | cut --complement -d "/" -f 1 | cat

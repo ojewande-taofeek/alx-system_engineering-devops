@@ -69,6 +69,28 @@ _ chmod
 - cut
 - passwd (5) (i.e. _man 5 passwd_)
 
+## Shell, init files, variables and expansions
+
+**Read or watch:**
+
+- Expansions
+- Shell Arithmetic
+- Variables
+- Shell initialization files
+- The alias Command
+- Technical Writing
+
+**man or help:**
+
+- printenv
+- set
+- unset
+- export
+- alias
+- unalias
+- .
+- source
+- printf
 
 
 
