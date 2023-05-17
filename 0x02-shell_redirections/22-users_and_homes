@@ -1,2 +1,2 @@
 #!/bin/bash
-cut --complement -d ":" -f -5 /etc/passwd | grep  -e "[[:alpha:]]*:/[[:alpha:]]*/[[:alpha:]]*"   -e "[[:alpha:]]*:/[[:alpha:]]*/[[:alpha:]]*/[[:alpha:]]*/[[:alpha:]]*"  |  sort -d
+cut -d ":" -f 1,6 /etc/passwd
