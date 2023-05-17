@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /usr/bin | mkdir action | export PATH=$PATH:"action"
+export PATH="$PATH:/action" | source /.bashrc

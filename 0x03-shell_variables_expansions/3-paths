@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH="$PATH:/action" | source /.bashrc
+echo $PATH | tr ":" "\n" | wc l
