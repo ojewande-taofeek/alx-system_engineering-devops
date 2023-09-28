@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Lists the files in current directory in list format without the prepend numbers
+files=$(find .| cut -d "-" -f 1 --complement)
+for file in ${files}; do
+	if [[ "${file}" = "." ]]; then
+		continue
+	fi
+	echo "${file}"
+done
