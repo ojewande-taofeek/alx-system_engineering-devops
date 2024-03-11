@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Lists the files in current directory in list format without the prepend numbers
-files=$(ls)
-for file in ${files}; do
-	echo "${file}" | cut -d '-' -f 1 --complement
-done
