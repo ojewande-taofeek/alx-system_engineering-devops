@@ -9,22 +9,22 @@ You can access your server information in the <a href="https://intranet.alxswe.c
 <center><h2>Resources</h3></center>
 <strong>Read or watch:</strong>
 <ul>
-<li>What is a (physical) server - text</li>
-<li>What is a (physical) server - video</li>
-<li>SSH essentials</li>
-<li>SSH Config File</li>
-<li>Public Key Authentication for SSH</li>
-<li>How Secure Shell Works</li>
-<li>SSH Crash Course (Long, but highly informative. Watch this if configuring SSH is still confusing. It may be helpful to watch at x1.25 speed or above.)</li>
+<li><a href="https://intranet.alxswe.com/rltoken/dkgW9lKiBRiUZHfq0MDJuw">What is a (physical) server - text</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/AxFcTdcXUCsrVp01X_EbFA">What is a (physical) server - video</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/ux0eM1QU9reNyG45b0erAQ">SSH essentials</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/Rc9FpSy4ZaQWPlcWLinbNw">SSH Config File</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/tOcxk5mtkedBM0WxyDZxTw">Public Key Authentication for SSH</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/j0atjRrVfZ6F810qmPfAzA">How Secure Shell Works</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/FKqd8CjxExmpWGu6xGavKw">SSH Crash Course</a> (Long, but highly informative. Watch this if configuring SSH is still confusing. It may be helpful to watch at x1.25 speed or above.)</li>
 </ul>
 <ul>
-<center><h3>For reference:</h3></center>
+<h3>For reference:</h3>
 
-<li>Understanding the SSH Encryption and Connection Process</li>
-<li>Secure Shell Wiki</li>
-<li>IETF RFC 4251 (Description of the SSH Protocol)</li>
-<li>Internet Engineering Task Force</li>
-<li>Request for Comments</li>
+<li><a href="https://intranet.alxswe.com/rltoken/JB-Vi4dR3q6nF4MBhsn8kQ">Understanding the SSH Encryption and Connection Process</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/SpiYWE79Yfr_vWDg42dzCw">Secure Shell Wiki</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/f2O0OQq9tch2MYeNAzkg5w">IETF RFC 4251 (Description of the SSH Protocol)</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/gd1W1UvB0KeJVWwM8BLvhA">Internet Engineering Task Force</a></li>
+<li><a href="https://intranet.alxswe.com/rltoken/jb-IrnQnUh-PsEDlbAU0Kw">Request for Comments</a></li>
 </ul>
 <strong>man or help:</strong>
 <ul>
