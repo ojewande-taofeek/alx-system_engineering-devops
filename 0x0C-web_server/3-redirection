@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 # Configures the Nginx server so that /redirect_me is redirecting to another page
-sudo apt-get update
+sudo apt-get -y update
 sudo apt-get -y install nginx
-echo "Hello World" | sudo tee /usr/shared/nginx/html/index.html
+sudo mkdir -p "/var/www/html"
+sudo touch "/var/www/html/index.html"
+echo "Hello World" | sudo tee "/var/www/html/index.html"
+
 line="location /redirect_me {\n\treturn 301 http://google.com$ request_uri;\n}\n"
 sudo sed -i "46i $line" /etc/nginx/sites-available/default
+
 sudo service nginx restart
