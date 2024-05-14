@@ -12,6 +12,6 @@ sudo sed -i "46i $line" /etc/nginx/sites-available/default
 sudo touch "/var/www/html/404.html"
 echo "Ceci n'est pas une page" | sudo tee "/var/www/html/404.html"
 line="\n\terror_page 404 /404.html;\n"
-sudo sed -i "44i $line" /etc/nginx/sites-available
+sudo sed -i "44i $line" /etc/nginx/sites-available/default
 
 sudo service nginx restart
