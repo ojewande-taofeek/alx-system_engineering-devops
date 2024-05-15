@@ -8,9 +8,9 @@ sudo apt-get install -y haproxy=2.9.\*
 
 sudo sed -i '8i\CONFIG="/etc/haproxy/haproxy.cfg"' /etc/default/haproxy
 
-FRONT="\\\nfrontend http_front\n\tbind *:80\
-	     	    \n\tmode http\n\tdefault_backend http_back"
-BACK="\\nbackend http_back\n\tbalance roundrobin\
+FRONT="frontend http_front\n\tbind *:80\
+	     	    \n\tmode http\n\tdefault_backend http_back\n"
+BACK="backend http_back\n\tbalance roundrobin\
 		    \n\tserver 305521-web-01 54.237.109.74:80 check\
 		    	    \n\tserver 305521-web-02 52.87.212.5:80 check"
 sudo sed -i "\$a$FRONT$BACK" /etc/haproxy/haproxy.cfg
