@@ -2,6 +2,7 @@
 # Configure the Nginx server to have a custom 404 page that contains the string Ceci n'est pas une page.
 sudo apt-get update 
 sudo apt-get -y install nginx nginx-extras
+sudo ufw allow "Nginx HTTP"
 line="\tserver_tokens off;\n\tmore_set_headers 'X-Served-By: $HOSTNAME';"
 sudo sed -i "/http {/a $line" /etc/nginx/nginx.conf
 
