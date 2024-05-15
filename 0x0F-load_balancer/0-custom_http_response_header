@@ -3,7 +3,7 @@
 sudo apt-get update 
 sudo apt-get -y install nginx nginx-extras
 sudo ufw allow "Nginx HTTP"
-line="\tserver_tokens off;\n\tmore_set_headers 'X-Served-By: $HOSTNAME';"
+line="		server_tokens off;\n	more_set_headers 'X-Served-By: $HOSTNAME';"
 sudo sed -i "/http {/a $line" /etc/nginx/nginx.conf
 
 sudo service nginx restart
