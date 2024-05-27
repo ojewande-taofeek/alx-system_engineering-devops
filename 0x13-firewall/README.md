@@ -9,6 +9,7 @@ _For this project, we expect you to look at this concept:_
 **Read or watch:**
 
 - [What is a firewall](https://intranet.alxswe.com/rltoken/vjB4LyHRdtEImzZcuD89ZQ)
+- [Port-forwarding](https://www.arubacloud.com/tutorial/how-to-manage-and-forward-ports-with-ufw-on-ubuntu-18-04.aspx#:~:text=Do%20it%20by%20using%20the%20command%3A%20sudo%20ufw,port%20you%20want%20traffic%20to%20be%20directed%20to.)
 
 ## More Info
 As explained in the web stack debugging guide concept page, telnet is a very good tool to check if sockets are open with telnet IP PORT. For example, if you want to check if port 22 is open on web-02:
