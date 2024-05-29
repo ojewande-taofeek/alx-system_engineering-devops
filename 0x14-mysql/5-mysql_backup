@@ -2,6 +2,6 @@
 # script that generates a MySQL dump and creates a compressed archive out of it
 passwd=$1
 current_date=$(date +%d-%m-%Y)
-file_name="${current_date}.tar"
+file_name="${current_date}.tar.gz"
 mysqldump -uroot  -A --password="$passwd"  > backup.sql
 tar -czf "$file_name" backup.sql
