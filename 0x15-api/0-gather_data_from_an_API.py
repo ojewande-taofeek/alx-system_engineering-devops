@@ -38,4 +38,4 @@ if __name__ == "__main__":
     print("Employee {} is done with tasks({}/{}):".format(emp_name, count_com,
                                                           count_task))
     for compl_task in task_com:
-        print("\t{}".format(compl_task))
+        print("\t {}".format(compl_task))
