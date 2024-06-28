@@ -1,0 +1,29 @@
+# server block for public IP using the domain IP
+server {
+        listen 80;
+        server_name 34.239.253.144;
+
+        location /airbnb-onepage/ {
+                proxy_pass http://0.0.0.0:5000;
+        }
+
+        location ~ /airbnb-dynamic/number_odd_or_even/(\d)(.*) {
+                proxy_pass http://0.0.0.0:5001/number_odd_or_even/$1;
+        }
+
+}
+
+# server block for localhost
+server {
+        listen 80;
+        server_name 127.0.0.1;
+
+        location /airbnb-onepage/ {
+                proxy_pass http://0.0.0.0:5000;
+        }
+
+        location ~ /airbnb-dynamic/number_odd_or_even/(\d)(.*) {
+                proxy_pass http://127.0.0.1:5001/number_odd_or_even/$1;
+        }
+
+}
